@@ -1,0 +1,232 @@
+.blogs img {
+   position: absolute;
+   top: -92px;
+}
+.ben {height:318px}
+.blogs {
+   padding: 0 32px 46px 32px;
+   position: relative;
+   max-width: 312px;
+   width: 100%;
+   height: 218px;
+   background: #10121B;
+}
+
+.blogs h2 {
+   color: var(--primary-txt, #FFF);
+   text-align: center;
+
+   /* Body1 24/28 */
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 28px;
+   /* 116.667% */
+   text-transform: capitalize;
+}
+
+.blogs p {
+   color: #D9DCEB;
+   text-align: center;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 20px;
+   /* 125% */
+}
+
+.card h2 {
+   color: #FFF;
+   text-align: center;
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+}
+
+.card {
+   max-width: 247px;
+   width: 100%;
+}
+
+.card p {
+   color: #7A7A7A;
+   text-align: center;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 24px;
+   /* 150% */
+}
+
+.use span,
+.benefits span {
+   background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-align: center;
+   font-feature-settings: 'liga' off, 'clig' off;
+   font-family: Inter;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 56px;
+   /* 116.667% */
+   text-decoration-line: underline;
+   text-decoration-style: solid;
+   text-decoration-skip-ink: none;
+   text-decoration-thickness: auto;
+   text-underline-offset: auto;
+   text-underline-position: from-font;
+}
+
+.use h1,
+.benefits h1 {
+   color: #FFF;
+   font-feature-settings: 'liga' off, 'clig' off;
+   font-family: Inter;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 56px;
+}
+.benefits h1 {
+   align-self:center;
+}
+
+main {
+   gap: 96px;
+   padding-top: 71px;
+   padding-bottom: 228px;
+}
+
+.sponsor {
+   max-width: unset;
+   ;
+}
+
+.potential h1 {
+   color: #FFF;
+   text-align: center;
+   font-family: Inter;
+   font-size: 56px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 68px;
+   /* 121.429% */
+}
+
+.potential>div:first-child {
+   max-width: 992px;
+   width: 100%;
+}
+
+.potential {
+   max-width: 1124px;
+   width: 100%;
+}
+
+.potential p {
+   color: #D9DCEB;
+   text-align: center;
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 32px;
+   /* 133.333% */
+}
+
+.premium button:first-child,
+.start button:first-child {
+   padding: 8px 16px;
+   border-radius: 24px;
+   border: 1px solid #5C6069;
+   color: #FFF;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.premium {
+   height: 52px;
+}
+
+.premium button:last-child,
+.start button:last-child {
+   border-radius: 24px;
+   padding: 8px 16px;
+   color: #FFF;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
+}
+
+.header {
+   padding: 24px 0;
+}
+
+.header li:first-child {
+   border-radius: 24px;
+   padding: 8px 16px;
+   background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
+}
+
+.header select:focus,
+.header select:active {
+   background: linear-gradient(180deg, rgba(112, 57, 240, 0.25) 0%, rgba(166, 87, 248, 0.25) 81.19%);
+}
+
+.header option {
+   background: #050109;
+   width: 50px;
+   color: #FFF;
+}
+
+.header select option:checked {
+   background: #7039F0;
+}
+
+.header select {
+   border-radius: 8px;
+   background: linear-gradient(180deg, rgba(112, 57, 240, 0.10) 0%, rgba(166, 87, 248, 0.10) 81.19%);
+   padding: 10px 16px;
+   color: #FFF;
+   font-family: Inter;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 24px;
+}
+
+.header a {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+
+}
+
+.header ul {
+   border-radius: 50px;
+   padding: 8px 16px;
+   height: 52px;
+   border: 1px solid #5C6069;
+}
+
+header,
+main,
+footer {
+   background: #050109;
+}
