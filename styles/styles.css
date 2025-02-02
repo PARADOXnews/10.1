@@ -1,8 +1,142 @@
+
+.comment h2 {color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;}
+
+.comment p {
+   color: #7A7A7A;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 128.571% */
+}
+
+.faces {height:272px;}
+
+.custom h1{color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 116.667% */}
+
+.galaxy button {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   height: 51px;
+   padding: 8px 24px;
+   border-radius: 24px;
+   border: 1px solid #5C6069;
+   background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
+}
+
+.galaxy p {
+   color: #7A7A7A;
+   font-family: Inter;
+   font-size: 16px;text-align: center;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 24px;width: 930px;
+   /* 150% */
+}
+.a {height:847px;width:100%;}
+.galaxy h1 {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 56px;
+   /* 116.667% */
+}
+
+.ship img {
+   position: absolute;
+   left:-524px;
+}
+
+.ship {
+   position: relative;
+}
+
+.galaxy {
+   width:100%;
+   height: 644px;
+   padding-top: 56px;
+   background: #10121B;
+}
+
+.traffic img {
+   position: absolute;
+   left: -246px;
+}
+
+.traffic {
+   position: relative;
+}
+
+.use,
+.use>div {
+   width: 100%;
+}
+
+.clear button {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   border-radius: 24px;
+   border: 1px solid #5C6069;
+   padding: 8px 24px;
+   height: 51px;
+}
+
+.clear {
+   gap: 89px;
+}
+
+.clear h1 {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 56px;
+   /* 116.667% */
+}
+
+.clear p {
+   color: #D9DCEB;
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 32px;
+   /* 133.333% */
+}
+
 .blogs img {
    position: absolute;
    top: -92px;
 }
-.ben {height:318px}
+
+.ben {
+   height: 318px;
+}
+
 .blogs {
    padding: 0 32px 46px 32px;
    position: relative;
@@ -63,8 +197,20 @@
    /* 150% */
 }
 
+.ben {
+   width: 100%;
+}
+
+.benefits {
+   max-width: 984px;
+   width: 100%;
+}
+
 .use span,
-.benefits span {
+.benefits span,
+.clear span,
+.galaxy span,
+.custom span {
    background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
    background-clip: text;
    -webkit-background-clip: text;
@@ -95,8 +241,9 @@
    font-weight: 600;
    line-height: 56px;
 }
+
 .benefits h1 {
-   align-self:center;
+   align-self: center;
 }
 
 main {
@@ -107,7 +254,7 @@ main {
 
 .sponsor {
    max-width: unset;
-   ;
+
 }
 
 .potential h1 {
@@ -206,6 +353,10 @@ main {
    font-size: 14px;
    font-weight: 400;
    line-height: 24px;
+}
+
+.header li {
+   padding: 8px 16px;
 }
 
 .header a {
