@@ -1,31 +1,167 @@
 
-.comment h2 {color: #FFF;
-text-align: center;
+.fdiv p{
+color: #FFF;
 font-family: Inter;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: normal;}
+line-height: 24px; /* 150% */
+}
+.fdiv li {
+   color: #7A7A7A;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+}
+
+.phone h2{
+   color: var(--primary-txt, #FFF);
+   font-feature-settings: 'liga' off, 'clig' off;
+   font-family: Inter;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 56px;
+}
+
+.c {
+   height: 527px;
+   position: relative;
+   max-width: 1148px;
+   width: 100%;
+}
+
+.d {
+   max-width: 1248px;
+   width: 100%;
+}
+
+.c img {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+}
+
+.invest button {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   border-radius: 24px;
+   background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
+   height: 51px;
+   padding: 8px 24px;
+}
+
+.invest h2 {
+   color: #FFF;
+   text-align: start;
+   font-family: Inter;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 56px;
+   /* 116.667% */
+}
+
+.invest p {
+   color: #D9DCEB;
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 32px;
+   /* 133.333% */
+}
+
+.invest {
+   z-index: 1;
+   border-radius: 16px;
+   border: 2px solid var(--gradient, #7039F0);
+   background: rgba(16, 18, 27, 0.10);
+   backdrop-filter: blur(10px);
+   backdrop-filter: blur(8.75px);
+   max-width: 737px;
+   width: 100%;
+   padding: 32px 40px;
+}
+
+.quote2 {
+   position: absolute;
+   left: 12px;
+   top: -12px;
+}
+
+.quote1 {
+   position: absolute;
+   right: 12px;
+   bottom: -12px;
+}
+
+.face-positioned {
+   position: absolute;
+   top: -32px;
+}
+
+.comment h2 {
+   color: #FFF;
+   text-align: center;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
 
 .comment p {
    color: #7A7A7A;
-text-align: center;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 18px; /* 128.571% */
+   text-align: center;
+   font-family: Inter;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 18px;
+   /* 128.571% */
 }
 
-.faces {height:272px;}
+.comment {
+   position: relative;
+   border-radius: 12px;
+   background: #10121B;
+   max-width: 250px;
+   width: 100%;
+   height: 200px;
+   padding: 48px 24px 24px 24px;
+}
 
-.custom h1{color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: 56px; /* 116.667% */}
+.b {
+   bottom: -72px;
+}
+
+.faces {
+   width: 100%;
+   height: 272px;
+   position: relative;
+}
+
+.custom {
+   gap: 84px;
+}
+
+.custom h1 {
+   color: #FFF;
+   text-align: center;
+   font-family: Inter;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 56px;
+   /* 116.667% */
+}
 
 .galaxy button {
    color: #FFF;
@@ -44,13 +180,20 @@ line-height: 56px; /* 116.667% */}
 .galaxy p {
    color: #7A7A7A;
    font-family: Inter;
-   font-size: 16px;text-align: center;
+   font-size: 16px;
+   text-align: center;
    font-style: normal;
    font-weight: 500;
-   line-height: 24px;width: 930px;
+   line-height: 24px;
+   width: 930px;
    /* 150% */
 }
-.a {height:847px;width:100%;}
+
+.a {
+   height: 847px;
+   width: 100%;
+}
+
 .galaxy h1 {
    color: #FFF;
    font-family: Inter;
@@ -63,7 +206,7 @@ line-height: 56px; /* 116.667% */}
 
 .ship img {
    position: absolute;
-   left:-524px;
+   left: -524px;
 }
 
 .ship {
@@ -71,7 +214,7 @@ line-height: 56px; /* 116.667% */}
 }
 
 .galaxy {
-   width:100%;
+   width: 100%;
    height: 644px;
    padding-top: 56px;
    background: #10121B;
@@ -145,7 +288,9 @@ line-height: 56px; /* 116.667% */}
    height: 218px;
    background: #10121B;
 }
-
+body {
+   background: #050109;
+}
 .blogs h2 {
    color: var(--primary-txt, #FFF);
    text-align: center;
@@ -210,7 +355,8 @@ line-height: 56px; /* 116.667% */}
 .benefits span,
 .clear span,
 .galaxy span,
-.custom span {
+.custom span,
+.purple {
    background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
    background-clip: text;
    -webkit-background-clip: text;
