@@ -133,7 +133,9 @@ line-height: 24px; /* 150% */
    line-height: 18px;
    /* 128.571% */
 }
-
+.footer {
+   padding-bottom:40px;
+}
 .comment {
    position: relative;
    border-radius: 12px;

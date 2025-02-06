@@ -55,5 +55,24 @@
    .b {
       bottom: unset;
    }
+   .faces {
+   display: grid; /* Switch to grid */
+   grid-template-columns: repeat(2, 1fr); /* 2 columns */
+   grid-template-rows: repeat(2, 1fr); /* 2 rows */
+   }
+   .comment {
+      max-width: unset;;
+   }
+   .custom {
+      height:530px
+   }
+   .invest {max-width: unset;}
+   .c {height: 729px;}
 
+   .phone img {
+      width:100%;
+   }
+   .globe{
+      width:100%;
+   }
 }
