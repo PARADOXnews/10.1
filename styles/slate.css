@@ -1,5 +1,59 @@
 @media screen and (min-width:768px) and (max-width:1023px) {
+   .p {
+      padding-left: 32px;
+      padding-right: 32px;
+   }
 
-  
-   
+   .sponsor img:nth-child(2n) {
+      display: none;
+   }
+
+   .sponsor {
+      width: 100%;
+   }
+
+   .ben {
+      flex-wrap: wrap;
+
+   }
+
+   .ben {
+      height: 660px;
+   }
+
+   .clear {
+      flex-direction: column-reverse;
+   }
+
+   .clear h1,
+   .clear p {
+      text-align: center;
+   }
+
+   .traffic img {
+      display: none;
+   }
+
+   .galaxy {
+      height: 644px;
+      ;
+   }
+
+   .ship {
+      height: 536px;
+      width: 100%;
+   }
+
+   .galaxy p {
+      width: unset;
+   }
+
+   .a {
+      height: 744px;
+   }
+
+   .b {
+      bottom: unset;
+   }
+
 }

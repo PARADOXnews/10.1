@@ -1,4 +1,10 @@
 
+
+.menu {
+   max-width: 816px;
+   width:100%;
+}
+
 .fdiv p{
 color: #FFF;
 font-family: Inter;
@@ -206,10 +212,15 @@ line-height: 24px; /* 150% */
 
 .ship img {
    position: absolute;
-   left: -524px;
+   right:0;
+   bottom:0;
+   top:0;
+   left:0;
+   width:100%;
 }
 
 .ship {
+   align-self:flex-start;
    position: relative;
 }
 
@@ -219,7 +230,10 @@ line-height: 24px; /* 150% */
    padding-top: 56px;
    background: #10121B;
 }
-
+.upload {
+   right:-200px;
+   bottom:85px;
+}
 .traffic img {
    position: absolute;
    left: -246px;

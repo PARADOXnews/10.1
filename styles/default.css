@@ -75,6 +75,16 @@ footer {
    align-items: flex-start;
 }
 
+/* position */
+
+   .relative{
+      position:relative;
+   }
+
+   .absolute {
+      position:absolute;
+   }
+
 
 /* flexes */
 
