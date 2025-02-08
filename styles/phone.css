@@ -1,4 +1,286 @@
 @media screen and (max-width:768px) {
 
-   
+   .p {
+      padding-left: 12px;
+      padding-right: 12px;
+   }
+
+   .header {
+      height: 368px;
+   }
+
+   .header.menu {
+      padding-top: 0;
+      padding-bottom: 0;
+   }
+
+   .premium {
+      width: 100%;
+      ;
+   }
+
+   .premium button {
+      height: 35px;
+      width: 50%;
+      font-size: 16px;
+   }
+
+   .premium button:last-child {
+      padding: 0;
+   }
+
+   .header ul {
+      height: unset;
+      width: 100%;
+      align-items: stretch;
+      border-radius: 12px;
+      border: 1px solid #5C6069;
+   }
+
+   .logo {
+      align-self: flex-start;
+   }
+
+   #menu {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .globe {
+      width: 100%;
+   }
+
+   .dnone {
+      display: none;
+   }
+
+   .card {
+      border-bottom: 1px solid #4A4A4E;
+      padding-bottom: 30px;
+   }
+
+   .benefits {
+      width: 100%;
+   }
+
+   .potential h1 {
+      font-size: 24px;
+      line-height: 32px;
+   }
+
+   .potential p {
+      line-height: 24px;
+      font-size: 16px;
+   }
+
+   .start {
+      width: 100%;
+   }
+
+   .start button {
+      height: 51px;
+      width: 50%;
+      font-size: 16px;
+   }
+
+
+   .ben {
+      height: 902px;
+   }
+
+   .blogs {
+      height: 218px;
+   }
+
+   .use h1,
+   .use span {
+      font-size: 32px;
+      line-height: 40px
+   }
+
+   .card h2 {
+      font-size: 16px;
+   }
+
+   .card p {
+      font-size: 14px;
+   }
+
+   .blogs {
+      border-radius: 16px;
+   }
+
+   .benefits h1,
+   .benefits span {
+      font-size: 24px;
+   }
+
+   .galaxy p {
+      width: unset;
+   }
+
+   .clear {
+      flex-direction: column-reverse;
+   }
+
+   .traffic img {
+      display: none;
+   }
+
+   .upload {
+      left: 0;
+
+   }
+
+   .clear h1,
+   .clear span {
+      font-size: 24px;
+   }
+
+   .clear p {
+      font-size: 16px;
+      line-height: 24px;
+   }
+
+   .clear button {
+      align-self: center;
+   }
+
+   .galaxy h1,
+   .galaxy span,
+   .custom h1,
+   .custom span {
+      font-size: 24px;
+   }
+
+   .c {
+      height: unset;
+   }
+
+   .faces {
+      height: 920px;
+      gap: 40px;
+   }
+
+   .b {
+      bottom: unset;
+   }
+
+   .galaxy {
+      height: 456px;
+      padding-top: 0;
+   }
+
+   .a {
+      height: 608px;
+   }
+
+   .ship {
+      height: unset;
+   }
+
+   .upload {
+      width: 100%;
+      padding-left: 12px;
+      padding-right: 12px;
+   }
+
+   .c {
+      flex-direction: column-reverse;
+   }
+
+   .invest button {
+      align-self: stretch;
+   }
+
+   .c img {
+      align-self: center;
+      right: unset;
+      width: 288px;
+   }
+   main {padding-bottom: 64px;;}
+   .clear>.paic {
+      text-align: center;
+   }
+.f {align-self: center;}
+   .invest h2 {
+      font-size: 24px;
+      line-height: 32px
+   }
+
+   .invest p {
+      font-size: 16px;
+      line-height: 24px;
+   }
+
+   .footer {
+      flex-direction: column;
+   }
+
+   .d {
+      height: 405px;
+   }
+
+   .c img {
+      bottom: -147px;
+   }
+
+main {gap:64px;}
+   .logs p {
+      color: var(--primary-txt, #FFF);
+      text-align: center;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      /* 150% */
+   }
+
+   .logs>div,
+   .logs {
+      width: 100%;
+   }
+
+   .logs>div {
+      padding: 24px 32px;
+      border-radius: 12px;
+   }
+
+   .logs div:nth-child(1) {
+      background: linear-gradient(323deg, rgba(0, 255, 107, 0.08) 0%, rgba(0, 0, 0, 0.00) 47.43%), #10121B;
+   }
+
+   .logs div:nth-child(2) {
+      background: linear-gradient(78deg, rgba(0, 255, 107, 0.12) 1.71%, rgba(0, 255, 107, 0.08) 1.71%, rgba(0, 0, 0, 0.00) 24.85%), #10121B;
+   }
+
+   .logs div:nth-child(3) {
+      border-radius: 12px;
+      background: linear-gradient(271deg, rgba(0, 255, 107, 0.12) 0.59%, rgba(0, 0, 0, 0.00) 75.31%), #10121B;
+   }
+
+   .logs div:nth-child(4) {
+      background: linear-gradient(90deg, rgba(0, 255, 107, 0.12) 8.41%, rgba(0, 0, 0, 0.00) 100%), #10121B;
+
+   }
+
+   .logs div:nth-child(5) {
+      background: linear-gradient(262deg, rgba(0, 255, 107, 0.05) 6.8%, rgba(0, 0, 0, 0.00) 34.32%), #10121B;
+   }
+
+   .logs div:nth-child(6) {
+      background: linear-gradient(101deg, rgba(0, 255, 107, 0.05) 4.3%, rgba(0, 0, 0, 0.00) 38.52%), #10121B;
+   }
+
+   .logs div:nth-child(7) {
+      background: linear-gradient(256deg, rgba(0, 255, 107, 0.06) 1.44%, rgba(0, 0, 0, 0.00) 39.91%), #10121B;
+   }
+
+   .logs div:nth-child(8) {
+      background: linear-gradient(109deg, rgba(0, 255, 107, 0.06) 6.68%, rgba(0, 0, 0, 0.00) 38.09%), #10121B;
+   }
+
 }

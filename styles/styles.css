@@ -1,28 +1,29 @@
-
-
 .menu {
    max-width: 816px;
-   width:100%;
+   width: 100%;
 }
 
-.fdiv p{
-color: #FFF;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 150% */
+.fdiv p {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 24px;
+   /* 150% */
 }
+
 .fdiv li {
    color: #7A7A7A;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 150% */
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 24px;
+   /* 150% */
 }
 
-.phone h2{
+.phone h2 {
    color: var(--primary-txt, #FFF);
    font-feature-settings: 'liga' off, 'clig' off;
    font-family: Inter;
@@ -133,9 +134,11 @@ line-height: 24px; /* 150% */
    line-height: 18px;
    /* 128.571% */
 }
+
 .footer {
-   padding-bottom:40px;
+   padding-bottom: 40px;
 }
+
 .comment {
    position: relative;
    border-radius: 12px;
@@ -214,17 +217,21 @@ line-height: 24px; /* 150% */
 
 .ship img {
    position: absolute;
-   right:0;
-   bottom:0;
-   top:0;
-   left:0;
-   width:100%;
+   right: 0;
+   bottom: 0;
+   top: 0;
+   left: 0;
+   width: 100%;
 }
 
 .ship {
-   align-self:flex-start;
+   align-self: flex-start;
    position: relative;
+   height: 536px;
+   width: 100%;
 }
+
+
 
 .galaxy {
    width: 100%;
@@ -232,10 +239,12 @@ line-height: 24px; /* 150% */
    padding-top: 56px;
    background: #10121B;
 }
+
 .upload {
-   right:-200px;
-   bottom:85px;
+   right: -200px;
+   bottom: 85px;
 }
+
 .traffic img {
    position: absolute;
    left: -246px;
@@ -243,6 +252,10 @@ line-height: 24px; /* 150% */
 
 .traffic {
    position: relative;
+}
+
+.none {
+   display:none;
 }
 
 .use,
@@ -304,9 +317,11 @@ line-height: 24px; /* 150% */
    height: 218px;
    background: #10121B;
 }
+
 body {
    background: #050109;
 }
+
 .blogs h2 {
    color: var(--primary-txt, #FFF);
    text-align: center;
@@ -413,10 +428,10 @@ main {
    padding-top: 71px;
    padding-bottom: 228px;
 }
-
+.g{width:100%;}
 .sponsor {
    max-width: unset;
-
+width:100%;
 }
 
 .potential h1 {
@@ -542,4 +557,10 @@ header,
 main,
 footer {
    background: #050109;
+}
+
+@media screen and (max-width:1284px) and (min-width:1000px) {
+   .extra {
+      display:none;
+   }
 }
