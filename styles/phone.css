@@ -129,9 +129,18 @@
       display: none;
    }
 
-   .upload {
-      left: 0;
+   .s {
+      position: relative;
+   }
 
+   .upload {
+max-width:304px;
+width:100%;
+bottom:100px;
+      left:unset;
+      right:unset;
+      padding-left: 0;
+      padding-right: 0;
    }
 
    .clear h1,
@@ -181,11 +190,6 @@
       height: unset;
    }
 
-   .upload {
-      width: 100%;
-      padding-left: 12px;
-      padding-right: 12px;
-   }
 
    .c {
       flex-direction: column-reverse;
@@ -200,11 +204,20 @@
       right: unset;
       width: 288px;
    }
-   main {padding-bottom: 64px;;}
+
+   main {
+      padding-bottom: 64px;
+      ;
+   }
+
    .clear>.paic {
       text-align: center;
    }
-.f {align-self: center;}
+
+   .f {
+      align-self: center;
+   }
+
    .invest h2 {
       font-size: 24px;
       line-height: 32px
@@ -227,7 +240,10 @@
       bottom: -147px;
    }
 
-main {gap:64px;}
+   main {
+      gap: 64px;
+   }
+
    .logs p {
       color: var(--primary-txt, #FFF);
       text-align: center;

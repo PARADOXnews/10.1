@@ -43,7 +43,9 @@
       height: 536px;
       width: 100%;
    }
-
+.upload {
+   display:flex;
+}
    .galaxy p {
       width: unset;
    }
